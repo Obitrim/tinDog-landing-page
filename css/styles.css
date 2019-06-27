@@ -1,0 +1,207 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+	padding: 3% 15% 0;
+	overflow: hidden;
+}
+
+
+
+#main-title{
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 3rem;
+	color: #fff;
+	font-weight: 800;
+	line-height: 1.5;
+}
+
+
+#title{
+	background-color: #ff4c68;
+}
+
+
+/* compositions */
+#testimonials,
+#press,
+#pricing,
+.cta-inner {
+	padding: 6em 0;
+}
+
+
+/*navigation*/
+.navbar{
+	padding: 0 0 50px;
+}
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2.2rem;
+}
+
+
+
+/*download buttons*/
+.download-btn{
+	margin: 1.625rem 8px 2.5rem 0;
+}
+
+
+.title-img-container{
+	position: relative;
+}
+
+#iphone6{
+	width: 60%;
+	transform: rotate(25deg) translate(-45%, -30%);
+	position: relative;
+	top: 45%;
+	left: 30%;
+}
+
+
+
+
+
+/* features */
+#features .row > div {
+	margin: 6em 0;
+	text-align: center;
+}
+
+#features .icon {
+	font-size: 4em;
+	margin: 0.5em 0;
+	color: #ff4c68;
+}
+
+
+
+/* testimonials */
+#testimonials {
+	background: rgba(0, 0, 0, 0.897);
+	color: #fff;
+}
+
+.carousel-inner {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.carousel-item {
+	text-align: center;
+}
+
+.carousel-item h2 {
+	font-size: 2rem;
+}
+
+.carousel-item img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin: 1em auto;
+}
+
+
+
+/* press */
+
+#press {
+	background: rgb(233, 233, 233);
+}
+
+
+.press-inner {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-row-gap: 20px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.press-content {
+	text-align: center;
+}
+
+.press-content img{
+	width: 80%;
+	height: auto;
+}
+
+
+
+/* pricing */
+
+#pricing header,
+.card {
+	text-align: center;
+}
+
+#pricing main {
+	margin-top: 4em;
+	color: rgb(141, 141, 141);
+}
+
+.card {
+	height: 100%;
+}
+
+.card-header,
+#pricing button {
+	background: rgba(0, 0, 0, 0.897);
+	color: #fff;
+}
+
+#pricing button {
+	width: 100%;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 30px;
+}
+
+
+/* call to action */
+
+#cta {
+	background: #ff4c68;
+	color: #fff;
+}
+
+.cta-inner {
+	text-align: center;
+}
+
+#cta h3 {
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+#cta button {
+	margin: 2em 1em;
+}
+
+
+#footer {
+	padding: 2em 5em;
+	background: #ff4c68;
+	color: #fff;
+	font-size: 0.95rem;
+	border-top: 1px dashed #fff;
+}
+
+
+
+@media only screen and (min-width: 576px){
+	#features.container {
+		width: 100%;
+	}
+}
